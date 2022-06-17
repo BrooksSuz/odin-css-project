@@ -7,6 +7,9 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0;
 }
 
@@ -14,6 +17,10 @@ header {
   display: flex;
   justify-content: space-between;
   color: #F9FAF8; 
+}
+
+header span {
+  font-size: 24px;
 }
 
 .link-container {
@@ -28,6 +35,7 @@ a {
 }
 
 .parent-1 {
+  width: 95%;
   background-color: #1F2937;
 }
 
@@ -38,6 +46,7 @@ a {
 .awesome-parent {
   display: flex;
   flex-direction: column;
+  align-items: baseline;
   width: 50%;
   color: #F9FAF8; 
 }
@@ -50,7 +59,15 @@ a {
   font-size: 18px;
 }
 
+button {
+  color: #F9FAF8; 
+  background-color: #3882F6;
+  border-radius: 10%;
+  border: none;
+}
+
 .parent-3 {
+  width: 95%;
   background-color: #e5e7eb;
 }
 
