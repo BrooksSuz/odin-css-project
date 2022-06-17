@@ -6,10 +6,54 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #F9FAF8; 
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
 .parent-1 {
   background-color: #1F2937;
 }
 
+.child-parent {
+  display: flex;
+}
+
+.awesome-parent {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: #F9FAF8; 
+}
+
+.awesome-parent h2 {
+  font-size: 48px;
+}
+
+.awesome-parent p {
+  font-size: 18px;
+}
+
 .parent-3 {
   background-color: #e5e7eb;
+}
+
+footer {
+  background-color: #1F2937;
 }
